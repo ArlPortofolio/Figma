@@ -1,0 +1,2 @@
+# Figma
+Slicing from figma
