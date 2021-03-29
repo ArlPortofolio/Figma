@@ -1,5 +1,5 @@
 const searchBox = document.querySelector('.search-box');
-const navBtnContainer = document.querySelector('.nav-Btn-Container');
+const navBtnContainer = document.querySelector('.nav-btn-container');
 const searchBtn = document.querySelector('.search-btn');
 const closeBtn = document.querySelector('.close-btn');
 
