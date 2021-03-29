@@ -60,7 +60,7 @@ nav .logo {
 /* Search Box */
 
 .search-box {
-	background: #fffffa;
+	background: none;
 	width: 1100px;
 	margin: 0 auto;
 	text-align: right;
@@ -88,7 +88,6 @@ nav .logo {
 }
 
 /* Search & Button */
-
 .nav-btn-container {
 	display: flex;
 	position: relative;
@@ -110,13 +109,13 @@ nav .logo {
 	transition: 300ms;
 }
 
-.nav-btn-container .active .search-btn {
+.nav-btn-container.active .search-btn {
 	opacity: 0;
 	pointer-events: none;
 	transform: translateY(-8px);
 }
 
-.nav-btn-container .active .close-btn {
+.nav-btn-container.active .close-btn {
 	opacity: 1;
 	pointer-events: auto;
 	transform: translateY(0);
@@ -197,6 +196,7 @@ header .hero-image img {
 	transition: 300ms;
 	position: relative;
 	z-index: 100;
+	margin: 100px 0;
 }
 
 header .hero-image .photo-bg {
@@ -205,7 +205,7 @@ header .hero-image .photo-bg {
 	height: 500px;
 	left: 47px;
 	top: 25px;
-
+	margin: 100px 0;
 	background: #44a1a0;
 	transform: rotate(-5.47deg);
 }
